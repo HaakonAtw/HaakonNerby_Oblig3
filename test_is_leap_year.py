@@ -4,12 +4,13 @@ import pytest
 
 @pytest.mark.parametrize("year, boolean",
                          [
-                                 (120, True),
-                                 (124, True),
-                                 (128, True),
-                                 (132, True),
-                                 (136, True),
-                                 (140, True)
+                             (120, True),
+                             (124, True),
+                             (128, True),
+                             (132, True),
+                             (136, True),
+                             (140, True),
+                             (144, True)
                          ]
                          )
 def test_year_divisible_by_four_but_not_hundred(year, boolean):
